@@ -47,5 +47,5 @@ jobs:
       #setup jupyter notebook
       - id: jupyter 
         name: Jupyter Notebook Execution
-        run: jupyter execute download.ipynb
+        run: jupyter execute sparktest.ipynb
         shell: bash
